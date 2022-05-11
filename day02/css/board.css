@@ -1,0 +1,17 @@
+/* 메뉴 스타일 */
+a{
+    text-align: none;
+    color: #000;
+}
+/* 질문 /답변 스타일 */
+table{
+    border: 3px solid rgb(25, 247, 18);
+    border-collapse: collapse;
+    width: 500px;
+    height: 80px;
+}
+th, td{
+    border: 1px solid rgb(25, 247, 18);
+    text-align: center;
+   
+}
