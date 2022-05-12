@@ -1,0 +1,36 @@
+div{
+    width: 700px;
+    height: 850px;
+    border: rgb(2, 46, 2) solid 3px;
+    background-image: url(../images/mic.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: 10px 20px 20px 20px;
+}
+
+fieldset{
+    width: 600px;
+    background: rgb(2, 46, 2);
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    margin-left: 40px;
+    line-height: 2em;
+}
+.box1{
+    font-size: 20px;
+    color: rgb(177, 99, 3);
+    font-weight: bold;
+}
+
+.box2{
+    margin-left: 80px;
+}
