@@ -1,0 +1,19 @@
+*{margin: 0 auto; padding: 0; list-style: none; text-decoration: none; box-sizing: border-box;}
+#container{width: 1280px; height: 80px; background-color: rgb(2, 120, 136); }
+header{display: flex;}
+#logo{width: 400px; height: 80px;}
+#logo > h1{height: 60px; margin-top: 16px; margin-left: -60px;}
+#logo > h1 > a{color: yellow; font-size: 0.9em; font-family: 'Merienda One'}
+#topMenu{width:calc(1280px - 800px); display: flex; }
+#topMenu > li{display: flex; }
+#topMenu > li > a{width:calc(1280px - 1100px); margin-top: 30px; margin-right: -200px;
+                  font-size: 1.1em; color: white;}
+#topMenu > li > a:hover{color: yellow;}
+
+#contents{border: 1px solid #ccc; width:100%;  padding: 50px; margin-left: 40px;}
+#healing{ background: green; height: 350px;}
+#contents > #healing > .detail1 > img{float: left; margin-right: 100px;}
+h2{margin-bottom: 30px;}
+img{border-radius: 10px;}
+.text1{line-height: 2em; background: red; width:calc(1200px - 300px); }
+h3{margin-top: 30px;}
