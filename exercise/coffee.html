@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습 문제 img</title>
+    <style>
+        div{
+            width: 0 auto;
+            height: 700px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        /* img:nth-last-of-type(2){border: 2px solid red;} */
+        img:nth-child(2){border: 2px solid red;}
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./images/coffee-blue.jpg" width="200px" height="200px">
+        <img src="./images/coffee-gray.jpg" width="200px" height="200px">
+        <img src="./images/coffee-pink.jpg" width="200px" height="200px">
+    </div>
+</body>
+</html>
