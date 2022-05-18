@@ -4,59 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>메인 페이지</title>
+    <title>index 페이지 연습</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
-        <header>
-            <div id="logo">
-                <h1><a href="#">Dream Jeju</a></h1>
+    <header>
+        <div class="navbar">
+            <div class="navbar_logo">
+                <h1>Dream Jeju</h1>
             </div>
             <nav>
-                <ul id="topMenu">
-                    <li><a href="#">제주 여행</a></li>
-                    <li><a href="#">레드향 소개</a></li>
-                    <li><a href="#">Q & A</a></li>
-                    <li><a href="#">About Me</a></li>
-                </ul>
+                <a href="#">제주여행</a>
+                <a href="#">레드향 소개</a>
+                <a href="#">Q & A</a>
+                <a href="#">About Me</a>
             </nav>
-        </header>
-        <main id="contents">
-            <section id="healing">
-                <h2>몸과 마음이 치유되는 섬</h2>
-                <div class="detail1">
-                    <img src="./images/healing.jpg" alt="폭포">
-                    <div class="text1">
-                        <p><b>쉼의 공간으로 안내합니다.</b></p>
-                        <p>탁 트인 바다 시원한 바람에 몸을 맡기고 뚜벅뚜벅
-                            오름을 오르고 올렛길을 걷다 보면 온전히 나에게
-                            집중할 수 있습니다.
-                        </p>
-                        <h3>상세 일정</h3>
-                        <ul>
-                            <li>여행 기간 : 2박 3일</li>
-                            <li>여행 일정 : (여행 일정은 상담을 통해 결정 및 조정 가능합니다.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section id="activity">
-                <h2>다양한 액티비가 기다리는 섬</h2>
-                <div class="detail1">
-                    <img src="./images/activity.jpg" alt="폭포">
-                    <p><b>쉼의 공간으로 안내합니다.</b></p>
-                    <p>탁 트인 바다 시원한 바람에 몸을 맡기고 뚜벅뚜벅
-                        오름을 오르고 올렛길을 걷다 보면 온전히 나에게
-                        집중할 수 있습니다.
-                    </p>
-            </section>
-        </main>
-        <footer>
-        </footer>
-    </div>
+        </div>
+    </header>
+    <section>
+        <div class="main_container1">
+            <h2>몸과 마음이 치유되는 섬</h2>
+            <div class="main_img1">
+                <img src="./images/healing.jpg" alt="폭포사진">
+            </div>
+            <div class="main_content1">
+                <p><b>쉼의 공간으로 안내합니다.</b></p>
+                <p>탁 트인 바다, 시원한 바람에 몸을 맡기고 뚜벅뚜벅 오름을 오르고
+                    올렛길을 걷다보면 온전히 나에게 집중할 수 있습니다.
+                </p>
+                <h3>상세 일정</h3>
+                <p>여행 기간 : 2박 3일</p>
+                <p>여행 일정 : (여행 일정은 상담을 통해 결정 및 조정 가능합니다.)</p>
+            </div>
+        </div>
+        <div class="main_container1">
+            <h2>다양한 액티비티가 기다리는 섬</h2>
+            <div class="main_img1">
+                <img src="./images/activity.jpg" alt="패러글라이딩 사진">
+            </div>
+            <div class="main_content1">
+                <p><b>모험과 스릴이 넘치는 레저의 천국으로 안내합니다.</b></p><br>
+                <p>둘러보기만 하는 여행을 하셨나요?</p>
+                <p>하늘을 날며 시원한 바다를 내려다보는 패러글라이딩과 투명한 물빛 속을
+                    여행하는 스킨 스쿠버... 아름다운 제주 해안도로를 씽씽 전동바이크나
+                    전동 키보드로 달려보세요. 시원한 바다를 가까이에서 느낄 수 있는 요트
+                    체험과 배낚시도 빼놓을 수 없겠죠?
+                </p>
+            </div>
+        </div>
+        <div class="main_container1">
+            <h2>주요 관광지</h2>
+            <ul>
+                <li>성산일출봉</li>
+                <li>한라산 국립공원</li>
+                <li>중문 관광단지</li>
+                <li>천지연 폭포</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_container">
+            <a href="#">회사 소개</a>
+            <a href="#">개인정보 처리 방침</a>
+            <a href="#">여행 약관</a>
+            <a href="#">사이트맵</a>
+        </div>
+    </footer>
 </body>
 </html>

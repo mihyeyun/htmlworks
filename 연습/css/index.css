@@ -1,19 +1,107 @@
-*{margin: 0 auto; padding: 0; list-style: none; text-decoration: none; box-sizing: border-box;}
-#container{width: 1280px; height: 80px; background-color: rgb(2, 120, 136); }
-header{display: flex;}
-#logo{width: 400px; height: 80px;}
-#logo > h1{height: 60px; margin-top: 16px; margin-left: -60px;}
-#logo > h1 > a{color: yellow; font-size: 0.9em; font-family: 'Merienda One'}
-#topMenu{width:calc(1280px - 800px); display: flex; }
-#topMenu > li{display: flex; }
-#topMenu > li > a{width:calc(1280px - 1100px); margin-top: 30px; margin-right: -200px;
-                  font-size: 1.1em; color: white;}
-#topMenu > li > a:hover{color: yellow;}
+* {margin: 0; padding: 0; flex-wrap: wrap;}
 
-#contents{border: 1px solid #ccc; width:100%;  padding: 50px; margin-left: 40px;}
-#healing{ background: green; height: 350px;}
-#contents > #healing > .detail1 > img{float: left; margin-right: 100px;}
-h2{margin-bottom: 30px;}
-img{border-radius: 10px;}
-.text1{line-height: 2em; background: red; width:calc(1200px - 300px); }
-h3{margin-top: 30px;}
+/* header 영역 */
+.navbar{
+    background: rgb(2, 120, 136);
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;   
+}
+.navbar_logo{
+    width: 20%;
+    color: yellow;
+    font-family: 'Merienda One', cursive;
+}
+nav{
+    width: 40%;
+    margin-left: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav > a{
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav > a:hover{
+    color: yellow;
+}
+
+/* section 영역 */
+.main_container1{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+  
+}
+.main_container1 > h2{
+    margin-left: 350px;
+}
+.main_img1{
+    margin-top: 20px;
+    float: left;
+    margin-left: 350px;
+}
+.main_img1 > img{
+    border-radius: 10px;
+    
+}
+.main_content1{
+    width: 650px;
+    height: 250px;
+    position: absolute;
+    left: 900px;
+    top: 80px;
+    line-height: 2;
+}
+/* 본문 3 */
+.main_content1 > h3{
+    margin-top: 20px;
+}
+.main_container1 ul{
+    margin-left: 450px;
+    margin-top: 25px;
+    line-height: 2.5;
+}
+
+/* footer 영역 */
+.footer_container{
+    height: 100px;
+    padding-left: 200px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.footer_container a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    display: inline-block;
+}
+.footer_container a:not(:last-child){
+    border-right: 1px solid #eee;
+}
+
+/* tangerine page 영역 */
+.tg_main{
+    background: blue;
+
+}
+.tg_main1{
+    border: 1px solid #ccc;
+    background: red;
+    margin: 20px auto;
+    width: 1000px;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tg_main1 h2{margin-left: 150px;}
+.tg_main1 img{
+    margin: 20px 150px;
+}
+.tg_main1 p{margin-left: 150px;}
