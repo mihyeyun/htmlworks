@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* display inline과 block의 비교
+        block은 줄 바꾸기 inline은 block을 inline 속성으로 변경함
+
+        li에 inline을 주고 a에 inline-block을 주면 a 끼리 떨어지는 효과,
+        li에 float: left를 주고 a에 dispay: block을 주면 a끼리 붙는 효과를 주게됨 */
+
+        li{list-style: none;}
+        .gnb li{display: inline;}
+        .gnb li a{
+            display: inline-block;
+            background: brown; color: #fff;
+            width: 100px; height: 35px; line-height: 35px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .gnb li a:hover{
+            text-decoration: underline;
+            background: #369;
+        }
+    </style>
+</head>
+<body>
+    <ul class="gnb">
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Community</a></li>
+    </ul>
+</body>
+</html>

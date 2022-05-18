@@ -1,0 +1,17 @@
+* {margin: 0; padding: 0;}
+div{
+    width:640px;
+    height: 426px;
+    background-image: url(../images/bg.jpg);
+    font-size: 60px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    /* 부모 요소가 기준이 됨 */
+    position: relative;
+}
+h1{
+    position: absolute;
+    left: 250px;
+    bottom: 70px;
+}
